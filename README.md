@@ -4,16 +4,16 @@ op inital server
 
 目录结构:  
 |op_inital                       
-|&nbsp;---action  
-|&nbsp;&nbsp;---action_cmd.py            linux shell集合（hostname，banner，iptables规则以及修改root密码需根据需求修改）  
-|&nbsp;&nbsp;---install_app.py           部署主方法  
-|&nbsp;&nbsp;---upload_path.py           配置源文件父路径，目标服务器上传文件路径  
-|&nbsp;---common  
-|&nbsp;&nbsp;---read_json.py  
-|&nbsp;&nbsp;---sftp_connect.py          SFTP连接传输文件   
-|&nbsp;&nbsp;---ssh_connetc.py           SSH连接输入指令    
-|&nbsp;&nbsp;---ssh_ppt.py               SSH交互方式连接输入指令   
-|&nbsp;---main.py  
+|&nbsp;&nbsp;---action  
+|&nbsp;&nbsp;&nbsp;&nbsp;---action_cmd.py            linux shell集合（hostname，banner，iptables规则以及修改root密码需根据需求修改）  
+|&nbsp;&nbsp;&nbsp;&nbsp;---install_app.py           部署主方法  
+|&nbsp;&nbsp;&nbsp;&nbsp;---upload_path.py           配置源文件父路径，目标服务器上传文件路径  
+|&nbsp;&nbsp;---common  
+|&nbsp;&nbsp;&nbsp;&nbsp;---read_json.py  
+|&nbsp;&nbsp;&nbsp;&nbsp;---sftp_connect.py          SFTP连接传输文件   
+|&nbsp;&nbsp;&nbsp;&nbsp;---ssh_connetc.py           SSH连接输入指令    
+|&nbsp;&nbsp;&nbsp;&nbsp;---ssh_ppt.py               SSH交互方式连接输入指令   
+|&nbsp;&nbsp;---main.py  
 
 需提供安装包的基础应用：  
 jdk-8u251-linux-x64.rpm    
