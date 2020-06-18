@@ -1,0 +1,20 @@
+[
+  {
+    "host": "127.0.0.1",
+    "port": 22,
+    "username": "root",
+    "password": "123456",
+    "hostname": "hostname1",
+    "mdisk": "/dev/sdb",
+    "install": "jdk,nginx,zabbix2,redis,mariadb2,iptables"
+  },
+  {
+    "host": "127.0.0.1",
+    "port": 22,
+    "username": "root",
+    "password": "123456",
+    "hostname": "hostname2",
+    "mdisk": "",
+    "install": "jdk,nginx,zabbix1,redis,mariadb1,iptables"
+  }
+]
